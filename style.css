@@ -1,0 +1,164 @@
+/* Partie 1 : Mise en forme globale */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+/* Partie 2 : Mise en forme du header */
+header {
+    background-color: red;
+    color: white;
+}
+
+.LienTitre {
+    color: red;
+    text-decoration: none;
+}
+
+.LienTitre:visited {
+    color: black;
+}
+
+.LienTitre:hover {
+    color: yellow;
+}
+
+.LienTitre:selected {
+    color: green;
+}
+
+/* Partie 3 : Mise en forme du formulaire */
+#form {
+    width: 500px;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+#titreInscription {
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* Partie 4 : Mise en forme du footer */
+footer {
+    background-color: red;
+    color: white;
+}
+/* Add your global styles here */
+
+body {
+    font-family: Arial, sans-serif; /* Adjust the font family as needed */
+    background-color: #f8f8f8; /* Set the background color */
+    color: #333; /* Set the default text color */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .contact {
+    padding: 80px 0; /* Adjust the top and bottom padding of the contact section */
+  }
+  
+  .contact-form .form-control {
+    background: transparent;
+    border: 1px solid #000; /* Black border */
+    border-bottom: 1px solid rgba(223, 88, 225, 0.35);
+    box-shadow: 0 1px 0 rosybrown; /* Slight box shadow */
+    border-radius: 0;
+    outline: none;
+    color: #000; /* Black text color */
+    font-weight: 400; /* Adjust the font weight */
+    padding-left: 0;
+    cursor: text;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Make the input and textarea width 100% */
+    margin-bottom: 10px; /* Add some bottom margin to separate the elements */
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px; /* Adjust the bottom margin of the form groups */
+  }
+  
+  .webform-label {
+    cursor: text;
+    font-size: 14px; /* Adjust the font size */
+    font-weight: 400; /* Adjust the font weight */
+    margin-bottom: 5px;
+    color: #3a182f;
+  }
+  
+  .contact-form .form-control:placeholder-shown + .webform-label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: left bottom;
+    transform: translate(0, 2.125rem) scale(1.5);
+  }
+  
+  .contact-form ::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #000; /* Black placeholder text color */
+  }
+  
+  .contact-form ::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+    color: #000; /* Black placeholder text color */
+  }
+  
+  .contact-form .form-control:focus::-webkit-input-placeholder {
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:focus::-moz-placeholder {
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:not(:placeholder-shown) + .webform-label,
+  .contact-form .form-control:focus + .webform-label {
+    transform: translate(0, 0) scale(1);
+    cursor: pointer;
+    color: #777; /* Adjust the label color */
+  }
+  
+  .contact-form #submit-button {
+    background: #4CAF50; /* Adjust the button background color */
+    border: 1px solid #4CAF50; /* Adjust the button border color */
+    border-radius: 3px; /* Adjust the button border radius */
+    color: #fff; /* Adjust the button text color */
+    cursor: pointer;
+    font-size: 16px; /* Adjust the button font size */
+    line-height: 0;
+    padding: 15px 20px; /* Adjust the button padding */
+    white-space: nowrap;
+    max-width: 190px;
+    transition: background-color 0.3s ease; /* Add a smooth transition to the background color */
+  }
+  
+  .contact-form #submit-button:hover {
+    background-color: #45a049; /* Adjust the button background color on hover */
+  }
+  
+  /* Add any additional styles or overrides as needed */
